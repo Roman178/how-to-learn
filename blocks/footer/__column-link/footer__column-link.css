@@ -1,0 +1,15 @@
+.footer__column-link {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.footer__column-link:hover {
+  opacity: 0.6;
+}
+
+.footer__column-link:last-child {
+  margin: 0;
+}
