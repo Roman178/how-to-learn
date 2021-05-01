@@ -1,20 +1,7 @@
-@keyframes rotate-figure {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
   color: #000;
-}
-
-.rotation {
-  animation: rotate-figure 20s linear infinite;
 }
